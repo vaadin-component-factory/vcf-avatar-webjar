@@ -1,0 +1,19 @@
+{
+  "name": "incubator-avatar",
+  "homepage": "https://github.com/vaadin/incubator-avatar-flow",
+  "authors": [],
+  "description": "",
+  "main": "",
+  "license": "https://vaadin.com/license/cval-3.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "incubator-avatar": "vaadin/incubator-avatar#${vaadin.incubator.avatar.version}"
+  }
+}
