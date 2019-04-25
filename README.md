@@ -1,1 +1,1 @@
-Webjar build of incubator avatar
+Webjar build of Vaadin Component Factory Avatar

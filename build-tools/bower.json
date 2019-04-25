@@ -1,6 +1,6 @@
 {
-  "name": "incubator-avatar",
-  "homepage": "https://github.com/vaadin/incubator-avatar-flow",
+  "name": "vcf-avatar",
+  "homepage": "https://github.com/vaadin-component-factory/vcf-avatar-flow",
   "authors": [],
   "description": "",
   "main": "",
@@ -14,6 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "incubator-avatar": "vaadin/incubator-avatar#${vaadin.incubator.avatar.version}"
+    "vcf-avatar": "vaadin-component-factory/vcf-avatar#${vaadin.vcf.avatar.version}"
   }
 }

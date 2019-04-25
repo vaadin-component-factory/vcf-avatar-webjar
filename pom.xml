@@ -9,14 +9,14 @@
         <version>2.0.0</version>
         <relativePath />
     </parent>
-    <groupId>com.vaadin.webjar</groupId>
-    <artifactId>incubator-avatar</artifactId>
+    <groupId>com.vaadin.componentfactory.webjar</groupId>
+    <artifactId>vcf-avatar</artifactId>
     <!-- Needs to be kept manually in sync with avatar version dependency
          in addon pom.xml -->
-    <version>1.2.7-SNAPSHOT</version>
+    <version>1.2.8-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>Vaadin Incubator Avatar WebJar</name>
+    <name>Vaadin Component Factory Avatar WebJar</name>
 
     <organization>
         <name>Vaadin Ltd</name>
@@ -40,17 +40,17 @@
         <maven.clean.plugin.version>3.0.0</maven.clean.plugin.version>
         <maven.resources.plugin.version>3.0.2</maven.resources.plugin.version>
 
-        <vaadin.incubator.avatar.version>1.2.7</vaadin.incubator.avatar.version>
+        <vaadin.vcf.avatar.version>1.2.8</vaadin.vcf.avatar.version>
 
         <buildtools.directory>build-tools</buildtools.directory>
         <frontend.working.directory>src/main/frontend</frontend.working.directory>
     </properties>
 
-    <url>https://vaadin.com/components/incubator-avatar</url>
+    <url>https://vaadin.com/components/vcf-avatar</url>
 
     <scm>
-        <connection>scm:git:https://github.com/vaadin/incubator-avatar-webjar.git</connection>
-        <developerConnection>scm:git:https://github.com/vaadin/incubator-avatar-webjar.git</developerConnection>
+        <connection>scm:git:https://github.com/vaadin-component-factory/vcf-avatar-webjar.git</connection>
+        <developerConnection>scm:git:https://github.com/vaadin-component-factory/vcf-avatar-webjar.git</developerConnection>
     </scm>
 
     <licenses>
@@ -102,8 +102,8 @@
     <build>
         <resources>
             <resource>
-                <directory>src/main/frontend/bower_components/incubator-avatar</directory>
-                <targetPath>META-INF/resources/webjars/incubator-avatar</targetPath>
+                <directory>src/main/frontend/bower_components/vcf-avatar</directory>
+                <targetPath>META-INF/resources/webjars/vcf-avatar</targetPath>
             </resource>
         </resources>
 
